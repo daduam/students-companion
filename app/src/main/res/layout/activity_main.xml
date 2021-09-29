@@ -91,14 +91,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/form_level_100_label"
-                        android:layout_weight="1" />
+                        android:layout_weight="1"
+                        android:onClick="setLevel" />
 
                     <RadioButton
                         android:id="@+id/form_level_200"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/form_level_200_label"
-                        android:layout_weight="1" />
+                        android:layout_weight="1"
+                        android:onClick="setLevel" />
 
                 </LinearLayout>
 
@@ -112,14 +114,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/form_level_300_label"
-                        android:layout_weight="1" />
+                        android:layout_weight="1"
+                        android:onClick="setLevel" />
 
                     <RadioButton
                         android:id="@+id/form_level_400"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/form_level_400_label"
-                        android:layout_weight="1" />
+                        android:layout_weight="1"
+                        android:setLevel="setLevel" />
 
                 </LinearLayout>
 
@@ -143,7 +147,10 @@
             <com.google.android.material.slider.Slider
                 android:id="@+id/form_gpa_slider"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:valueFrom="0.00"
+                android:valueTo="4.00"
+                android:stepSize="0.01" />
 
         </LinearLayout>
 
