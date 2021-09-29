@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="page_title_top_margin">20dp</dimen>
+    <dimen name="page_title_size">20sp</dimen>
+    <dimen name="screen_padding_h">10dp</dimen>
+    <dimen name="form_field_padding_v">10dp</dimen>
+</resources>
