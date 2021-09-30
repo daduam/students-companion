@@ -123,7 +123,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/form_level_400_label"
                         android:layout_weight="1"
-                        android:setLevel="setLevel" />
+                        android:onClick="setLevel" />
 
                 </LinearLayout>
 
@@ -149,8 +149,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:valueFrom="0.00"
-                android:valueTo="4.00"
-                android:stepSize="0.01" />
+                android:valueTo="4.00" />
 
         </LinearLayout>
 

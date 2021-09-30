@@ -4,9 +4,7 @@
     <string name="form_name_label">Name</string>
     <string name="save_btn_text">Save</string>
     <string name="form_index_number_label">Index Number</string>
-    <string name="form_index_number_input_hint">Enter index number</string>
     <string name="form_level_label">Level</string>
-    <string name="form_level_100">100</string>
     <string name="form_level_100_label">100</string>
     <string name="form_level_200_label">200</string>
     <string name="form_level_300_label">300</string>
